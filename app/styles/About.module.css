@@ -1,0 +1,18 @@
+.highlighted {
+    color: deeppink;
+    font-size: larger;
+}
+
+.links {
+    color: chartreuse;
+   
+    text-decoration: underline;
+}
+.titleAbout {
+    text-align: center;
+    font-size: x-large;
+}
+
+.aboutText {
+    padding: 1rem;
+}

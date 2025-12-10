@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  margin: auto;
+  padding: 0 1rem;
+  background-color: purple;
+  
+}
+.navigation{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+  margin-left:5rem ;
+}
+
+/* ====== SEZIONE GENERICA ====== */
+.section {
+  padding: 2rem 0;
+}
+
+/* ====== DIV CONTENITORE NEUTRO ====== */
+.box {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.nav {
+  position: fixed;
+ 
+  height: 50px;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin-left: 2rem;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+  text-decoration: none;
+}
