@@ -24,7 +24,7 @@ const getPost = async (slug: string)  => {
 }
 
 const article = async ({params}: {params: Promise <{id:string}> }) => {
-    const { id } = await params; //  le bestemmie 
+    const { id } = await params; // params in questo caso è una Promise, quindi seguendo le istruzioni dell'errore che mi ritornava, ho wrappato params, in modo tale che il valore di id mi venga ritornato quando la Promisa è pronta. Il che mi ha portato ja usare un generico per indicare il type di params, devo approfondire questo, per capire se è la soluzione corretta.
   const post = await getPost(id);
   return (
     <>
