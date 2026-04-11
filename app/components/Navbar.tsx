@@ -1,5 +1,4 @@
 "use client";
-import React from 'react'
 import Link from 'next/link'
 import navStyles from "../styles/Navbar.module.css"
 
@@ -10,7 +9,8 @@ type Props = { //posso chiamarlo come mi pare
 const Navbar = ({title}: Props) => {
   return (
     <nav className={navStyles.nav}>
-      {title && <span>{title}</span>}
+      {title && <span>WebDev</span>}
+      <div className={navStyles.links}>
       <ul >
         <li>
           <Link href="/">Home</Link> 
@@ -18,7 +18,11 @@ const Navbar = ({title}: Props) => {
         <li>
           <Link href="/about">About</Link> 
         </li>
+        <li>
+          <Link href="/apiDemo">DemoApi</Link> 
+        </li>
       </ul>
+      </div>
       
     </nav>
   )

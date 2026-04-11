@@ -17,3 +17,17 @@
   border-radius: 6px;
   margin-bottom: 1.5rem;
 }
+
+.ssrCont, .ssgCont{
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.highlighted {
+    color: deeppink;
+    font-size: larger;
+}
+
+.links {
+    color: chartreuse;
+}
